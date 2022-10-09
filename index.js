@@ -29,9 +29,7 @@ app.use("/quiz", quizRouter);
 //setup cors
 
 //home page
-app.get("/", (req, res) => {
-  res.status(200).send(`<h1>Hello from backend</h1>`);
-});
+
 
 //
 app.use(express.static("client/build"));
